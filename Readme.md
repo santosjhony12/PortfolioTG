@@ -104,7 +104,7 @@ Contribuições Pessoais
 ### Em 2023-2
 
 ### Empresa Parceira 🫱🏻‍🫲🏻  
-O projeto foi desenvolvido na Fatec como trabalho acadêmico do primeiro semestre, tendo como cliente o Professor Mineda. Trabalhamos com foco na otimização do processo de avaliação dos Trabalhos de Conclusão de Curso (TCC) dos alunos do 5º e 6º período do curso de Análise e Desenvolvimento de Sistemas.
+O projeto foi desenvolvido na Fatec como trabalho acadêmico do segundo semestre, tendo como cliente o Professor Mineda. Trabalhamos com foco na otimização do processo de avaliação dos Trabalhos de Conclusão de Curso (TCC) dos alunos do 5º e 6º período do curso de Análise e Desenvolvimento de Sistemas.
 
 ### Problema ‼️  
 O principal desafio era modernizar e automatizar o processo de avaliação dos TCCs, que até então apresentava diversas limitações:
@@ -271,4 +271,84 @@ Repositório: <a href="https://github.com/TechHorizonBR/API_3SEM.git">Clique aqu
 - Organização - Mediante prazos de entrega das Sprints e as disciplinas, precisei me organizar para cumprir conforme planejado, principalmente em períodos de provas.
 - Adaptabilidade - Houve a necessidade de ajustar a implementação das funcionalidades conforme feedbacks dos clientes e mudanças nos requisitos durante o processo de desenvolvimento, por exemplo, adicionar mais uma leitura de arquivo no final da Sprint 4.
 - Resolução de problemas - Enfrentei desafios técnicos na integração de dados, por exemplo, na leitura do arquivo CSV (Sprint 1), e precisei aplicar soluções criativas e eficientes para garantir a continuidade do projeto sem impactar os prazos.
+
+
+### Em 2025-2
+
+#### Empresa Parceira 🫱🏻‍🫲🏻
+O projeto foi realizado em parceria com a ITO1, uma empresa especializada em dados e IoT. A ITO1 coleta informações de diferentes ambientes usando dispositivos IoT e utiliza essas informações para inovar nas soluções, especialmente na geolocalização de pessoas e objetos. O foco é gerenciar grandes volumes de dados gerados por IoTs de maneira eficiente, oferecendo soluções escaláveis e de alta disponibilidade para registrar e consultar geolocalização de dispositivos, ativos e outros objetos em banco de dados relacional.
+
+#### Problema ‼️
+O principal desafio era lidar com o grande volume de dados gerados por dispositivos IoT, especialmente para geolocalização, e garantir que esses dados fossem armazenados de forma eficiente e escalável. A alta demanda por consultas rápidas e a necessidade de garantir a alta disponibilidade dos dados para múltiplos usuários e dispositivos era um grande desafio. Além disso, era essencial manter a integridade e rastreabilidade das informações.
+
+#### Solução Entregue ✅
+A solução desenvolvida foi um sistema que integra o registro e consulta de dados de geolocalização de dispositivos, com funcionalidades para visualização em mapa, filtros de busca, e demarcação de espaços para alertas. O sistema foi projetado para ser escalável, intuitivo e com alta disponibilidade, utilizando tecnologias de ponta e um banco de dados relacional. Entre as funcionalidades entregues estão:
+- Registro de dados do cliente;
+- Visualização do dispositivo em tempo real no mapa;
+- Filtros de busca e intervalos de datas para consultas;
+- Criação de alertas quando dispositivos saem de áreas demarcadas;
+- Rastreabilidade do histórico de localizações;
+- Gestão de usuários e autenticação de acesso.
+
+Repositório: [Clique aqui](https://github.com/TechHorizonBR/API_4SEM.git)
+
+#### Tecnologias Utilizadas
+- Java 17: Versão estável da linguagem Java, com melhorias significativas de desempenho e novas funcionalidades, além de contar com suporte de longo prazo (LTS). Essa versão proporciona maior eficiência no desenvolvimento de aplicações robustas e escaláveis, com atualizações periódicas e estabilidade garantida para projetos de longo prazo.
+- Spring Boot: Framework baseado no ecossistema Spring, que simplifica o desenvolvimento de aplicações Java. Ele oferece configurações automáticas e convenções que reduzem a quantidade de código necessário para configurar a aplicação. O Spring Boot facilita a criação de microserviços e APIs RESTful, sendo amplamente utilizado no desenvolvimento de back-end.
+- Spring Security: Módulo do Spring Framework que fornece autenticação e autorização de maneira extensível e configurável. Ele permite a proteção de endpoints da aplicação, utilizando diversas formas de autenticação (como JWT, OAuth2, autenticação básica, etc.), controle de permissões e integração com sistemas de login.
+- Hibernate: Framework ORM (Object-Relational Mapping) que facilita a interação entre as aplicações Java e bancos de dados relacionais. O Hibernate mapeia objetos Java para tabelas no banco de dados, abstraindo a complexidade das operações SQL e permitindo uma abordagem mais orientada a objetos para a manipulação de dados.
+- HTML (HyperText Markup Language): Linguagem de marcação utilizada para estruturar o conteúdo das páginas web. O HTML define a organização de texto, imagens, links, formulários e outros elementos, sendo a base da construção de qualquer página na web.
+- CSS (Cascading Style Sheets): Linguagem de estilo usada para definir a aparência e o layout das páginas web. O CSS permite aplicar cores, fontes, espaçamentos, e definir o comportamento visual de elementos HTML, tornando as interfaces mais agradáveis e responsivas.
+- JavaScript: Linguagem de programação essencial para a construção de páginas web dinâmicas e interativas. Com o JavaScript, é possível modificar o conteúdo da página sem recarregar, realizar validações de formulários, manipular eventos, e interagir com APIs externas, tornando as páginas mais interativas e funcionais.
+- MySQL: Sistema de gerenciamento de banco de dados relacional que utiliza SQL (Structured Query Language) para definir e manipular dados. O MySQL é amplamente utilizado para armazenar dados estruturados de aplicações web, sendo uma escolha popular para back-ends que requerem eficiência em consultas e escalabilidade.
+- Pinia: Biblioteca para gerenciamento de estado no Vue.js, fornecendo uma maneira centralizada e reativa de armazenar e gerenciar o estado global da aplicação. O Pinia facilita a comunicação entre os componentes e mantém o estado da aplicação consistente, proporcionando um fluxo de dados previsível.
+- Vue.js: Framework JavaScript progressivo usado para construir interfaces de usuário interativas. O Vue.js é projetado para ser incrementavelmente adotável e fornece um conjunto de ferramentas para criar componentes dinâmicos e reativos, facilitando o desenvolvimento de interfaces modernas e interativas.
+- Figma: Ferramenta baseada na web para design de interfaces e prototipagem de soluções. O Figma permite a criação de layouts e mockups interativos, colaborando em tempo real com equipes de design e desenvolvimento, e facilitando a entrega de interfaces visuais antes da implementação no código.
+
+
+#### Contribuições Pessoais
+- Durante o projeto, desempenhei o papel de **Scrum Master** e contribui de maneira significativa no desenvolvimento tanto do **back-end** quanto do **front-end**. Fui responsável pela criação de endpoints de rastreabilidade de usuário, processamento de dados, e pela integração das funcionalidades de geolocalização no sistema. As contribuições específicas incluem:
+
+  - Registro de Dados e Rastreabilidade de Usuário
+          <details>
+              Desenvolvi o sistema de rastreabilidade de usuários, garantindo que cada ação fosse registrada. Enfrentei dificuldades iniciais ao capturar corretamente o usuário logado, mas após ajustes no Spring Security, implementei uma solução funcional, assegurando que todos os endpoints exigissem um usuário autenticado.
+      ![image](https://github.com/user-attachments/assets/21a21d3d-2b52-44db-b21c-0038292be875)
+          </details>
+
+  - Processamento e Leitura de Arquivos CSV
+          <details>
+              Desenvolvi um algoritmo que processava arquivos CSV enviados por HTTP (POST), transformando-os em dados utilizáveis para o banco de dados relacional. A solução foi usada tanto para configuração de bases de dados quanto para o upload de dados com esquema pronto.
+      ![image](https://github.com/user-attachments/assets/b2404759-428c-4847-a790-29173be97b49)
+          </details>
+
+  - Gerenciamento de Usuários
+          <details>
+              Desenvolvi a funcionalidade de gerenciamento de usuários, permitindo o registro e a manutenção dos dados dos usuários no sistema. A solução inclui operações para criação, atualização e exclusão de usuários, bem como a validação de dados de entrada (como e-mail e senha). A interface de gerenciamento foi construída utilizando **Spring Boot**, integrando com o banco de dados relacional para armazenamento das informações de usuários, como nome, e-mail, senha criptografada e status de ativação. A implementação inclui a criação de um **usuário administrador** com permissões para gerenciar todos os outros usuários do sistema, podendo alterar dados e até excluir contas de usuários quando necessário.
+      ![image](https://github.com/user-attachments/assets/80b9ea1a-6b2c-401a-8617-e84a22540ce5)
+          </details>
+
+  - Autenticação de Usuários
+          <details>
+              Implementei o processo de autenticação de usuários utilizando **Spring Security** com autenticação baseada em **JWT (JSON Web Tokens)**. Esse sistema permite que os usuários façam login utilizando e-mail e senha, gerando um token JWT que é usado para validar requisições subsequentes. O processo de login envolve a verificação da senha criptografada com **BCrypt** para garantir a segurança das informações. Após a autenticação bem-sucedida, o sistema gera um token JWT que pode ser utilizado em futuras requisições para acessar endpoints protegidos. Além disso, foi configurado um sistema de **roles**, onde os usuários podem ser atribuídos a diferentes níveis de acesso (ex: administrador, usuário comum), permitindo controle granular sobre o que cada usuário pode acessar no sistema.
+      ![image](https://github.com/user-attachments/assets/75b554db-84c2-4eb5-a282-4981a0d6f057)
+          </details>
+
+
+### Hard Skills
+
+- Java (Spring Boot): A implementação do **gerenciamento de usuários** e da **autenticação de usuários** demonstra meu domínio em desenvolvimento de back-end, especialmente no uso do Spring Boot. O uso de **Spring Security** e JWT para autenticação, além de integrar com banco de dados relacional, mostra uma boa aplicação de conceitos avançados de segurança e arquitetura de sistemas.
+- MySQL: No desenvolvimento do **gerenciamento de usuários**, trabalhei com banco de dados relacional, modelando e realizando consultas para armazenar e gerenciar informações de usuários, como nome, e-mail e senha criptografada.
+- Vue.js e Pinia: Embora o foco principal das minhas contribuições tenha sido o back-end, o uso de Vue.js e Pinia no front-end seria crucial para criar interfaces interativas e integrar essas funcionalidades de back-end com a experiência do usuário.
+- Git/GitHub: O versionamento de código e a colaboração em equipe, tanto para a implementação do **processamento de arquivos CSV** quanto para o **gerenciamento de usuários**, requerem uma boa organização de repositórios e controle de versões.
+- Postman: Ao desenvolver as funcionalidades de rastreabilidade de usuários e autenticação, utilizei ferramentas como o Postman para testar e validar as APIs, garantindo que os endpoints estivessem funcionando corretamente.
+- Jira: No gerenciamento das tarefas relacionadas a essas funcionalidades, utilizei o Jira para organizar as atividades, acompanhar o progresso do projeto e garantir a entrega dentro do prazo.
+
+### Soft Skills
+
+- Comunicação: Em todas as minhas contribuições, especialmente como parte da **dev team**, facilitei a comunicação dentro da equipe. Isso foi vital, por exemplo, na resolução das dificuldades ao capturar corretamente o usuário logado no **sistema de rastreabilidade de usuários** e no ajuste da implementação de autenticação no **Spring Security**.
+- Trabalho em Equipe: Durante o desenvolvimento do **gerenciamento de usuários** e da **autenticação de usuários**, colaborei ativamente com outros membros da equipe para garantir que o sistema estivesse funcionando de forma coesa, implementando soluções técnicas de forma eficaz e dentro dos requisitos do projeto.
+- Organização: A organização foi um ponto chave para entregar as funcionalidades de forma eficiente, especialmente ao lidar com o processamento de arquivos CSV, o que exigia um bom gerenciamento de tempo entre as responsabilidades acadêmicas e profissionais.
+- Adaptabilidade: A solução que implementei para a **rastreabilidade de usuários** exigiu ajustes no **Spring Security** e uma adaptação aos feedbacks recebidos durante o desenvolvimento, o que demonstra minha capacidade de ajustar as abordagens conforme as necessidades do projeto.
+- Resolução de Problemas: Enfrentei diversos desafios técnicos, como a captura correta do usuário logado e a implementação de **segurança na autenticação**. A solução eficiente para esses problemas garantiu o funcionamento adequado das funcionalidades, como a validação de autenticação e o gerenciamento de permissões com **JWT**.
+
 
