@@ -293,17 +293,18 @@ A solução desenvolvida foi um sistema que integra o registro e consulta de dad
 Repositório: [Clique aqui](https://github.com/TechHorizonBR/API_4SEM.git)
 
 #### Tecnologias Utilizadas
-- Java 17: Versão estável da linguagem Java, com melhorias significativas de desempenho e novas funcionalidades, além de contar com suporte de longo prazo (LTS). Essa versão proporciona maior eficiência no desenvolvimento de aplicações robustas e escaláveis, com atualizações periódicas e estabilidade garantida para projetos de longo prazo.
-- Spring Boot: Framework baseado no ecossistema Spring, que simplifica o desenvolvimento de aplicações Java. Ele oferece configurações automáticas e convenções que reduzem a quantidade de código necessário para configurar a aplicação. O Spring Boot facilita a criação de microserviços e APIs RESTful, sendo amplamente utilizado no desenvolvimento de back-end.
-- Spring Security: Módulo do Spring Framework que fornece autenticação e autorização de maneira extensível e configurável. Ele permite a proteção de endpoints da aplicação, utilizando diversas formas de autenticação (como JWT, OAuth2, autenticação básica, etc.), controle de permissões e integração com sistemas de login.
-- Hibernate: Framework ORM (Object-Relational Mapping) que facilita a interação entre as aplicações Java e bancos de dados relacionais. O Hibernate mapeia objetos Java para tabelas no banco de dados, abstraindo a complexidade das operações SQL e permitindo uma abordagem mais orientada a objetos para a manipulação de dados.
-- HTML (HyperText Markup Language): Linguagem de marcação utilizada para estruturar o conteúdo das páginas web. O HTML define a organização de texto, imagens, links, formulários e outros elementos, sendo a base da construção de qualquer página na web.
-- CSS (Cascading Style Sheets): Linguagem de estilo usada para definir a aparência e o layout das páginas web. O CSS permite aplicar cores, fontes, espaçamentos, e definir o comportamento visual de elementos HTML, tornando as interfaces mais agradáveis e responsivas.
-- JavaScript: Linguagem de programação essencial para a construção de páginas web dinâmicas e interativas. Com o JavaScript, é possível modificar o conteúdo da página sem recarregar, realizar validações de formulários, manipular eventos, e interagir com APIs externas, tornando as páginas mais interativas e funcionais.
-- MySQL: Sistema de gerenciamento de banco de dados relacional que utiliza SQL (Structured Query Language) para definir e manipular dados. O MySQL é amplamente utilizado para armazenar dados estruturados de aplicações web, sendo uma escolha popular para back-ends que requerem eficiência em consultas e escalabilidade.
-- Pinia: Biblioteca para gerenciamento de estado no Vue.js, fornecendo uma maneira centralizada e reativa de armazenar e gerenciar o estado global da aplicação. O Pinia facilita a comunicação entre os componentes e mantém o estado da aplicação consistente, proporcionando um fluxo de dados previsível.
-- Vue.js: Framework JavaScript progressivo usado para construir interfaces de usuário interativas. O Vue.js é projetado para ser incrementavelmente adotável e fornece um conjunto de ferramentas para criar componentes dinâmicos e reativos, facilitando o desenvolvimento de interfaces modernas e interativas.
-- Figma: Ferramenta baseada na web para design de interfaces e prototipagem de soluções. O Figma permite a criação de layouts e mockups interativos, colaborando em tempo real com equipes de design e desenvolvimento, e facilitando a entrega de interfaces visuais antes da implementação no código.
+- Java 17: Versão estável da linguagem Java, com melhorias de desempenho, novas funcionalidades, e suporte de longo prazo (LTS).
+- Spring Boot: Framework Java que simplifica o desenvolvimento de aplicações, oferecendo configurações automáticas e ferramentas para criar serviços e APIs.
+- Spring Security: Módulo do Spring para a segurança de aplicações, incluindo autenticação e autorização.
+- Hibernate: Framework ORM para interação entre aplicações Java e bancos de dados relacionais.
+- HTML (HyperText Markup Language): Linguagem de marcação para criar a estrutura e conteúdo de páginas da web.
+- CSS (Cascading Style Sheets): Linguagem de estilo para estilizar páginas web.
+- JavaScript: Linguagem de programação para interatividade em sites e aplicações web.
+- MySQL: Sistema de gerenciamento de banco de dados relacional para armazenamento e consulta de dados.
+- Pinia: Para gerenciamento de estado no front-end com Vue.js.
+- Vue.js: Framework JavaScript para construção de interfaces de usuário interativas.
+- Figma: Ferramenta para prototipagem de interfaces e design de soluções.
+
 
 
 #### Contribuições Pessoais
