@@ -300,7 +300,7 @@ Repositório: [Clique aqui](https://github.com/TechHorizonBR/API_4SEM.git)
 - HTML (HyperText Markup Language): Linguagem de marcação para criar a estrutura e conteúdo de páginas da web.
 - CSS (Cascading Style Sheets): Linguagem de estilo para estilizar páginas web.
 - JavaScript: Linguagem de programação para interatividade em sites e aplicações web.
-- MySQL: Sistema de gerenciamento de banco de dados relacional para armazenamento e consulta de dados.
+- Oracle: Sistema de gerenciamento de banco de dados relacional para armazenamento e consulta de dados.
 - Pinia: Para gerenciamento de estado no front-end com Vue.js.
 - Vue.js: Framework JavaScript para construção de interfaces de usuário interativas.
 - Figma: Ferramenta para prototipagem de interfaces e design de soluções.
@@ -338,7 +338,7 @@ Repositório: [Clique aqui](https://github.com/TechHorizonBR/API_4SEM.git)
 ### Hard Skills
 
 - Java (Spring Boot): A implementação do **gerenciamento de usuários** e da **autenticação de usuários** demonstra meu domínio em desenvolvimento de back-end, especialmente no uso do Spring Boot. O uso de **Spring Security** e JWT para autenticação, além de integrar com banco de dados relacional, mostra uma boa aplicação de conceitos avançados de segurança e arquitetura de sistemas.
-- MySQL: No desenvolvimento do **gerenciamento de usuários**, trabalhei com banco de dados relacional, modelando e realizando consultas para armazenar e gerenciar informações de usuários, como nome, e-mail e senha criptografada.
+- Oracle: No desenvolvimento do **gerenciamento de usuários**, trabalhei com banco de dados relacional, modelando e realizando consultas para armazenar e gerenciar informações de usuários, como nome, e-mail e senha criptografada.
 - Vue.js e Pinia: Embora o foco principal das minhas contribuições tenha sido o back-end, o uso de Vue.js e Pinia no front-end seria crucial para criar interfaces interativas e integrar essas funcionalidades de back-end com a experiência do usuário.
 - Git/GitHub: O versionamento de código e a colaboração em equipe, tanto para a implementação do **processamento de arquivos CSV** quanto para o **gerenciamento de usuários**, requerem uma boa organização de repositórios e controle de versões.
 - Postman: Ao desenvolver as funcionalidades de rastreabilidade de usuários e autenticação, utilizei ferramentas como o Postman para testar e validar as APIs, garantindo que os endpoints estivessem funcionando corretamente.
