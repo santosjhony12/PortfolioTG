@@ -273,7 +273,7 @@ Repositório: <a href="https://github.com/TechHorizonBR/API_3SEM.git">Clique aqu
 - Resolução de problemas - Enfrentei desafios técnicos na integração de dados, por exemplo, na leitura do arquivo CSV (Sprint 1), e precisei aplicar soluções criativas e eficientes para garantir a continuidade do projeto sem impactar os prazos.
 
 
-### Em 2025-2
+### Em 2024-2
 
 #### Empresa Parceira 🫱🏻‍🫲🏻
 O projeto foi realizado em parceria com a ITO1, uma empresa especializada em dados e IoT. A ITO1 coleta informações de diferentes ambientes usando dispositivos IoT e utiliza essas informações para inovar nas soluções, especialmente na geolocalização de pessoas e objetos. O foco é gerenciar grandes volumes de dados gerados por IoTs de maneira eficiente, oferecendo soluções escaláveis e de alta disponibilidade para registrar e consultar geolocalização de dispositivos, ativos e outros objetos em banco de dados relacional.
