@@ -76,3 +76,4 @@ Contribuições Pessoais
 - Organização – Utilizei ferramentas como Notion e GitHub para gerenciar minhas tarefas e commits, mantendo o andamento do projeto em dia mesmo com as exigências das disciplinas acadêmicas paralelas.
 - Adaptabilidade – Durante as sprints, precisei ajustar o código de cálculo das avaliações após mudanças nos critérios definidos pelo cliente interno. Reestruturei a lógica rapidamente, garantindo que o sistema atendesse aos novos requisitos sem comprometer a estabilidade.
 - Resolução de problemas – Enfrentei dificuldades técnicas ao implementar o armazenamento e leitura de dados em JSON, especialmente na etapa de cálculo de pontuação. Analisei os erros, testei alternativas e otimizei o processo para evitar inconsistências nos resultados das avaliações.
+ALTERACAO
