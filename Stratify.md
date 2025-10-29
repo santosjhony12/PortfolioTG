@@ -28,7 +28,7 @@ Desenvolvemos uma plataforma inteligente integrada ao Taiga, capaz de transforma
 - Discord: Aplicativo de comunicação por voz, vídeo e texto, muito usado por comunidades e equipes de desenvolvimento para reuniões, suporte e colaboração em tempo real.
 
 
-Contribuições Pessoais
+### Contribuições Pessoais
 - Desenvolvimento de requisitos do produto
   <details>
     <p>Contribui com a definição dos requisitos funcionais e não funcionais da plataforma, identificando as principais métricas e indicadores necessários para otimizar a gestão de projetos no Taiga. Realizei reuniões com stakeholders e membros da equipe de desenvolvimento para entender as dores operacionais e transformá-las em funcionalidades priorizadas no backlog.</p>
@@ -54,7 +54,12 @@ Contribuições Pessoais
     ![stratify](https://github.com/user-attachments/assets/e5360b82-d955-4dcc-b73f-6c9538a2530e)
   </details>
 
-
 #### Hard Skills
+- Liquibase: 
+- PostgreSQL: 
+- Github: 
+- Git: 
+- Jira: 
+- Figma: 
 
 #### Soft Skills
