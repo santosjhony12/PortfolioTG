@@ -1,4 +1,4 @@
-<img width="1584" height="396" alt="Banner para linkedin profissional moderno azul escuro" src="https://github.com/user-attachments/assets/8447bc93-2b9a-4716-ae8e-781eacf4c8e6" />
+<img width="1584" height="396" alt="Banner para linkedin profissional moderno azul escuro (3)" src="https://github.com/user-attachments/assets/7cd20dfc-7dbe-42b2-a24d-ae7da7be62b1" />
 
 
 ## Introdução
