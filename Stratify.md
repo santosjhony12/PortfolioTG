@@ -12,8 +12,7 @@ A Youtan enfrenta dificuldades para visualizar e acompanhar indicadores importan
 A falta de um painel centralizado e de controle de acesso por nível de usuário dificulta a gestão, a análise de desempenho e a tomada de decisões estratégicas.
 
 ### Solução Entregue ✅
-Foi desenvolvida uma plataforma integrada ao Taiga que exibe indicadores de forma clara e centralizada. O sistema oferece dashboards interativos e níveis de acesso 
-personalizados para operadores, gestores e administradores, tornando a gestão dos projetos mais eficiente e transparente.
+Criamos uma plataforma inteligente integrada ao Taiga, capaz de transformar dados brutos em insights visuais e estratégicos. Com dashboards interativos e acesso personalizado por nível de usuário, cada membro da equipe — do operador ao administrador — pode acompanhar o progresso dos projetos de forma simples, dinâmica e transparente, fortalecendo a tomada de decisões e a eficiência na gestão.
 
 #### Tecnologias Utilizadas
 
