@@ -55,11 +55,19 @@ Desenvolvemos uma plataforma inteligente integrada ao Taiga, capaz de transforma
   </details>
 
 #### Hard Skills
-- Liquibase: 
-- PostgreSQL: 
-- Github: 
-- Git: 
-- Jira: 
-- Figma: 
+- Liquibase: Implementei o versionamento do banco de dados utilizando o Liquibase, configurando scripts de changelogs para controlar e rastrear alterações estruturais. Assegurei compatibilidade entre versões da aplicação e do banco, facilitando rollback e migrações seguras em ambientes de desenvolvimento e produção.
+- PostgreSQL: Modelei e gerenciei o banco de dados responsável por armazenar métricas e informações do Taiga. Criei e otimizei tabelas, views e consultas SQL para alimentar os dashboards com indicadores de desempenho e distribuição de tarefas.
+- Github: Utilizei o GitHub para versionamento do código e colaboração em equipe, organizando branches, pull requests e revisões de código. Também documentei o projeto e acompanhei o progresso das entregas pelo repositório.
+- Git: Utilizei o Git para versionar o código do projeto, realizando commits, criação de branches e controle de alterações locais. Mantive um histórico organizado e sincronizado com o repositório remoto no GitHub, garantindo segurança e rastreabilidade no desenvolvimento.
+- Jira: Acompanhei o andamento das minhas tarefas e sprints através do Jira, definindo prioridades, prazos e histórias de usuário. Atuei na gestão do backlog e na comunicação entre equipe de devs para garantir o alinhamento do produto.
+- Figma: Desenvolvi os protótipos das telas de dashboards aplicando princípios de UX/UI Design. Defini paletas de cores, tipografia e disposição de elementos para otimizar a experiência do usuário e garantir consistência visual com a identidade da Youtan.
 
 #### Soft Skills
+
+- Comunicação: Mantive uma comunicação clara e constante com a equipe de desenvolvimento e o cliente, garantindo o alinhamento entre os objetivos do projeto e as funcionalidades da plataforma.
+- Trabalho em equipe: Colaborei com os desenvolvedores e designers na criação dos dashboards e definição dos indicadores, buscando sempre integrar design, usabilidade e funcionalidade.
+- Organização e gestão de prioridades: Estruturei e gerenciei o backlog no Jira, priorizando as entregas mais importantes para o negócio e acompanhando o progresso das sprints.
+- Pensamento analítico: Analisei e defini as métricas mais relevantes para a gestão dos projetos, transformando dados do Taiga em informações úteis para tomada de decisão.
+- Adaptabilidade: Implementei o versionamento do banco de dados de forma gradual, iniciando o processo sem ferramentas para compreender o fluxo antes de aplicar o Liquibase.
+- Criatividade: Desenvolvi os protótipos das telas de dashboard no Figma, aplicando princípios de UX/UI Design, explorando cores, hierarquia visual e navegação intuitiva.
+- Responsibilidade e Compromentimento: Cumpri prazos e mantive a qualidade das entregas, assumindo a responsabilidade por etapas críticas como o versionamento do banco e a prototipagem das telas.
