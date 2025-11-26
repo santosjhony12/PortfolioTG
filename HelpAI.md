@@ -50,7 +50,7 @@ Contribuições Pessoais
       devido à quantidade de produtos analisados. Além disso, avaliei a acurácia dos resultados, ajustei os modelos para melhorar o
       desempenho e gerei visualizações que facilitaram a interpretação das tendências identificadas. Esse processo permitiu transformar dados
       brutos em insights preditivos úteis para apoiar tomadas de decisão estratégicas.
-          ![recording-2025-11-24-22-36-13](https://github.com/user-attachments/assets/4bffe5d1-5d6d-403d-9656-01be5c65ae70)
+          ![Design sem nome](https://github.com/user-attachments/assets/f5f9b37f-86e5-4ee9-9d5d-510f1c88650f)
           </details>
 
     - Desenvolvimento de chatbot
@@ -70,8 +70,7 @@ Contribuições Pessoais
 
     - Desenvolvimento do sistema de autenticação
           <details>
-              Auxiliei no desenvolvimento da lógica da autenticação de usuário. Nesse projeto, não utilizamos hash para criptografia para garantir a segurança do sistema. A recuperação de senha foi feita através de ```for``` buscando pelo email do usuário.
-          ![image](https://github.com/user-attachments/assets/0df9ff0a-2987-4c92-b08f-568434a35172)
+
           </details>
 
 
