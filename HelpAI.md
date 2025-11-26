@@ -41,6 +41,11 @@ Contribuições Pessoais
               Como Product Owner, fui responsável por levantar os requisitos do sistema em parceria com o cliente, buscando compreender profundamente suas necessidades e transformar essas demandas em soluções viáveis para o time de desenvolvimento.
           <img width="1383" height="601" alt="image" src="https://github.com/user-attachments/assets/a670e0e3-6ccd-44fe-85eb-4f785ca3b9ef" />
           </details>
+    - Desenvolvimento do DoR e DoD
+          <details>
+              Minhas contribuições incluíram a definição clara dos critérios de DoR (Definition of Ready) e DoD (Definition of Done), garantindo que cada demanda fosse iniciada apenas quando totalmente preparada e concluída somente quando atendesse a todos os requisitos de qualidade. Isso trouxe mais organização, alinhamento entre o time e maior previsibilidade no processo de desenvolvimento.
+          <img width="1182" height="785" alt="image" src="https://github.com/user-attachments/assets/28f17839-9257-4f50-a9ef-735303e6feba" />
+          </details>
 
     - Treinamento de modelo de IA com algoritmo de séries temporais
           <details>
@@ -59,33 +64,29 @@ Contribuições Pessoais
       configurando índices e garantindo que as buscas fossem eficientes. Isso permitiu que, ao digitar uma palavra ou frase, o sistema realizasse a decomposição dos
       termos e retornasse resultados relevantes e próximos da intenção do usuário. No front-end, desenvolvi uma
       interface intuitiva que simula a experiência de um chat, proporcionando navegação simples e comunicação fluida com o assistente.
-          ![recording-2025-11-24-22-46-04](https://github.com/user-attachments/assets/57ae1418-d677-43e2-b70b-35850d4b5bd0)
+          ![Design sem nome (1)](https://github.com/user-attachments/assets/bdf07f02-be77-440f-8f0b-56ed0632398e)
           </details>
 
     - Termos de Consentimento
           <details>
-              Auxiliei no desenvolvimento da lógica de criação dos períodos avaliativos, onde somente o administrador do sistema possui acesso. Importante dizer, que nessa etapa, operei somente com a lógica do programa, dando espaço para o visual para outro integrante do grupo.
-          ![image](https://github.com/user-attachments/assets/8d9a7c4e-a261-4d12-9664-50063ab75b95)
+              Desenvolvi toda a parte de termos de consentimento. No back-end, implementei o versionamento e o registro das aceitações; no front-end, criei a interface de visualização. O usuário deve aceitar o termo obrigatório para permanecer no sistema, enquanto o termo opcional libera ou restringe acesso a certas abas. O administrador pode criar novos termos e definir se são obrigatórios ou opcionais, onde os obrigatórios substituem versões anteriores e os opcionais são adicionados normalmente.
+          ![Design sem nome (2)](https://github.com/user-attachments/assets/7a0bbc39-daba-441a-94fc-c6d2fb21faab)
           </details>
-
-    - Desenvolvimento do sistema de autenticação
-          <details>
-
-          </details>
-
 
 #### Hard Skills
-- Python - Desenvolvi a aplicação desktop, configurando toda lógica e visual com a linguagem de programação, como também em conexão ao banco de dados.
-- Json - Utilizei como banco de dados, simulando um não relacional.
-- VS Code - Ferramenta utilizada no desenvolvimento do projeto, com alto nível de proficiência na customização do ambiente e uso de plugins.
-- Git/GitHub - Versionamento de código e trabalho em equipe, com eficiência no uso de branches, pull requests e resolução de conflitos.
-- Figma - Para prototipagem de interfaces e colaboração no design da solução, utilizando a ferramenta com eficiência.
-- Notion - Organizei tarefas e acompanhei o desenvolvimento do projeto de acordo com a metodologia Scrum.
+- Python - Usei Python como base do backend e o microframework Flask para construir as APIs do sistema. Implementei rotas, regras de negócio e integrações necessárias para suportar as funcionalidades do projeto.
+- Prophet - Treinei modelos de previsão usando Prophet para analisar tendências de séries temporais. Preparei os dados, ajustei parâmetros, validei resultados e gerei previsões confiáveis para apoiar decisões estratégicas.
+- Elastic Search - Ferramenta utilizada no desenvolvimento do projeto, com alto nível de proficiência na customização do ambiente e uso de plugins.
+- PostgreSQL - Utilizei PostgreSQL no armazenamento estruturado dos dados, organizando tabelas, relacionamentos e garantindo consistência das informações utilizadas pelo backend.
+- VueJS - Desenvolvi telas e componentes no front-end usando Vue.js, incluindo a interface do chatbot e outras áreas do sistema. Trabalhei com comunicação via API, estados reativos e usabilidade.
+- Git/GitHub - Utilizei Git para versionamento e GitHub para gerenciar o repositório do projeto, realizando commits, branchs, pull requests e colaborando com o time durante o desenvolvimento.
+- Figma - Participei da construção e validação das telas no Figma, garantindo que o design refletisse a experiência desejada e servisse como base visual para o desenvolvimento.
+- Jira - Utilizei o Jira para organizar tarefas, registrar histórias, acompanhar entregas e manter o fluxo de trabalho alinhado ao Scrum utilizado pela equipe.
 - Discord - Utilizei para comunicação com o tipo, além de reuniões onlines.
 
 #### Soft Skills
-- Comunicação – Mantive um diálogo constante com os colegas para esclarecer dúvidas técnicas, alinhar decisões de implementação e garantir a integração fluida entre as partes do sistema. Essa comunicação foi essencial principalmente na fase de testes e ajustes finais.
-- Trabalho em equipe – Colaborei diretamente com os demais desenvolvedores nas funcionalidades de autenticação, avaliação e gestão de usuários. Compartilhei ideias, dividi responsabilidades e solicitei apoio quando necessário, contribuindo para um desenvolvimento colaborativo.
-- Organização – Utilizei ferramentas como Notion e GitHub para gerenciar minhas tarefas e commits, mantendo o andamento do projeto em dia mesmo com as exigências das disciplinas acadêmicas paralelas.
+- Comunicação – Mantive alinhamento constante com o time e com o cliente, garantindo entendimento claro dos requisitos, priorizações e expectativas em cada etapa do desenvolvimento e também nas cerimônias do Scrum, como: Daily, Review, Retrospectiva e Planning.
+- Trabalho em equipe – Atuei de forma colaborativa com os desenvolvedores e cliente, integrando entregas entre front-end, back-end e produto para manter o fluxo de desenvolvimento eficiente.
+- Pensamento Analítico – Analisei dados, requisitos e comportamentos do sistema para tomar decisões técnicas mais assertivas, especialmente em tarefas envolvendo IA, buscas avançadas e estruturação do backend.
 - Adaptabilidade – Durante as sprints, precisei ajustar o código de cálculo das avaliações após mudanças nos critérios definidos pelo cliente interno. Reestruturei a lógica rapidamente, garantindo que o sistema atendesse aos novos requisitos sem comprometer a estabilidade.
-- Resolução de problemas – Enfrentei dificuldades técnicas ao implementar o armazenamento e leitura de dados em JSON, especialmente na etapa de cálculo de pontuação. Analisei os erros, testei alternativas e otimizei o processo para evitar inconsistências nos resultados das avaliações.
+- Adaptabilidade - Me ajustei rapidamente às mudanças de escopo, novas demandas e diferentes tecnologias utilizadas no projeto, mantendo produtividade e qualidade nas entregas.
