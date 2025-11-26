@@ -88,5 +88,4 @@ Contribuições Pessoais
 - Comunicação – Mantive alinhamento constante com o time e com o cliente, garantindo entendimento claro dos requisitos, priorizações e expectativas em cada etapa do desenvolvimento e também nas cerimônias do Scrum, como: Daily, Review, Retrospectiva e Planning.
 - Trabalho em equipe – Atuei de forma colaborativa com os desenvolvedores e cliente, integrando entregas entre front-end, back-end e produto para manter o fluxo de desenvolvimento eficiente.
 - Pensamento Analítico – Analisei dados, requisitos e comportamentos do sistema para tomar decisões técnicas mais assertivas, especialmente em tarefas envolvendo IA, buscas avançadas e estruturação do backend.
-- Adaptabilidade – Durante as sprints, precisei ajustar o código de cálculo das avaliações após mudanças nos critérios definidos pelo cliente interno. Reestruturei a lógica rapidamente, garantindo que o sistema atendesse aos novos requisitos sem comprometer a estabilidade.
 - Adaptabilidade - Me ajustei rapidamente às mudanças de escopo, novas demandas e diferentes tecnologias utilizadas no projeto, mantendo produtividade e qualidade nas entregas.
