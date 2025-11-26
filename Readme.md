@@ -24,6 +24,7 @@ Adoto metodologias ágeis, especialmente Scrum, para gerenciamento de projetos, 
 - <a href="https://github.com/santosjhony12/PortfolioTG/blob/main/NextSchema.md" >Terceiro Semestre</a>
 - <a href="https://github.com/santosjhony12/PortfolioTG/blob/main/LocalTracker.md">Quarto Semestre</a>
 - <a href="https://github.com/santosjhony12/PortfolioTG/blob/main/Stratify.md">Quinto Semestre</a>
+- <a href="https://github.com/santosjhony12/PortfolioTG/blob/main/HelpAI.md">Sexto Semestre</a>
 
 
 ## Principais tecnologias
