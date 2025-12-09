@@ -39,25 +39,25 @@ Contribuições Pessoais
     - Desenvolvimento de cálculos e feedbacks ao usuário na avaliação
           <details>
               Desenvolvi calculos para a avaliação. Gerando pontuações com base na avaliação interpessoal e pessoal. Utilizando calculos simples e registrando as respostas em nosso banco de dados Json. Essa etapa foi importante para garantir a integridade dos cálculos e pelo resultado da avaliação do integrante. Qualquer erro poderia causar incoerência no feedback ao usuário.
-          ![image](https://github.com/user-attachments/assets/7351eccd-5e05-4032-9ac8-2e8d88af7de7)
+          <img width="1195" height="676" alt="image" src="https://github.com/user-attachments/assets/93cc688a-0656-4e0e-9e96-497009c08205" />
           </details>
 
     - Desenvolvimento dos painés de gerenciamento de usuário
           <details>
               Para o cadastro de usuário, utilizamos um método de requisição de entrada, onde somente se o administrador do sistema aprovar a entrada, o usuário consegue acessar o sistema. Além disso, o próprio usuário solicita em qual grupo ele deseja participar.
-          ![image](https://github.com/user-attachments/assets/78dc2087-c4a1-4ee7-88b4-ad09500d0010)
+          <img width="1205" height="683" alt="image" src="https://github.com/user-attachments/assets/03b5b14b-abaa-41f7-91bd-773051a23e03" />
           </details>
 
-    - Desenvolvimento dos painés de gerenciamento de usuário
+    - Desenvolvimento dos painés de gerenciamento das sprints
           <details>
               Auxiliei no desenvolvimento da lógica de criação dos períodos avaliativos, onde somente o administrador do sistema possui acesso. Importante dizer, que nessa etapa, operei somente com a lógica do programa, dando espaço para o visual para outro integrante do grupo.
-          ![image](https://github.com/user-attachments/assets/8d9a7c4e-a261-4d12-9664-50063ab75b95)
+          <img width="1199" height="676" alt="image" src="https://github.com/user-attachments/assets/06309d06-ee96-4f76-be9d-64baf0befaaa" />
           </details>
 
     - Desenvolvimento do sistema de autenticação
           <details>
               Auxiliei no desenvolvimento da lógica da autenticação de usuário. Nesse projeto, não utilizamos hash para criptografia para garantir a segurança do sistema. A recuperação de senha foi feita através de ```for``` buscando pelo email do usuário.
-          ![image](https://github.com/user-attachments/assets/0df9ff0a-2987-4c92-b08f-568434a35172)
+          <img width="797" height="526" alt="image" src="https://github.com/user-attachments/assets/cbd1c7f9-6501-410b-ba02-f2c6ea74cf42" />
           </details>
 
 
