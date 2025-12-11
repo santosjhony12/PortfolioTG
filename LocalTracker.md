@@ -47,20 +47,56 @@ A solução desenvolvida foi um sistema que integra o registro e consulta de dad
   - Processamento e Leitura de Arquivos CSV
           <details>
               Desenvolvi um algoritmo que processava arquivos CSV enviados por HTTP (POST), transformando-os em dados utilizáveis para o banco de dados relacional. A solução foi usada tanto para configuração de bases de dados quanto para o upload de dados com esquema pronto.
-      ![image](https://github.com/user-attachments/assets/b2404759-428c-4847-a790-29173be97b49)
-          </details>
+      ```
+      @PostMapping("/input-registers-upload-file")
+      public ResponseEntity<Void> inputRegistersByUpload(@RequestParam("file") MultipartFile file){
+          registroService.inputRegistersByUploadFile(file);
+          return ResponseEntity.status(HttpStatus.CREATED).build();
+      }
+      ```
+    </details>
 
   - Gerenciamento de Usuários
           <details>
               Desenvolvi a funcionalidade de gerenciamento de usuários, permitindo o registro e a manutenção dos dados dos usuários no sistema. A solução inclui operações para criação, atualização e exclusão de usuários, bem como a validação de dados de entrada (como e-mail e senha). A interface de gerenciamento foi construída utilizando **Spring Boot**, integrando com o banco de dados relacional para armazenamento das informações de usuários, como nome, e-mail, senha criptografada e status de ativação. A implementação inclui a criação de um **usuário administrador** com permissões para gerenciar todos os outros usuários do sistema, podendo alterar dados e até excluir contas de usuários quando necessário.
-      ![image](https://github.com/user-attachments/assets/80b9ea1a-6b2c-401a-8617-e84a22540ce5)
-          </details>
+      ```
+        public Usuario findByNameAndCreate(String nome){
+            Optional<Usuario> usuario = usuarioRepository.findByNome(nome.toUpperCase());
+    
+            if (usuario.isPresent()){
+                return usuario.get();
+            }else{
+                return usuarioRepository.save(new Usuario(nome.toUpperCase()));
+            }
+        }
+      ```
+    </details>
 
   - Autenticação de Usuários
           <details>
               Implementei o processo de autenticação de usuários utilizando **Spring Security** com autenticação baseada em **JWT (JSON Web Tokens)**. Esse sistema permite que os usuários façam login utilizando e-mail e senha, gerando um token JWT que é usado para validar requisições subsequentes. O processo de login envolve a verificação da senha criptografada com **BCrypt** para garantir a segurança das informações. Após a autenticação bem-sucedida, o sistema gera um token JWT que pode ser utilizado em futuras requisições para acessar endpoints protegidos. Além disso, foi configurado um sistema de **roles**, onde os usuários podem ser atribuídos a diferentes níveis de acesso (ex: administrador, usuário comum), permitindo controle granular sobre o que cada usuário pode acessar no sistema.
-      ![image](https://github.com/user-attachments/assets/75b554db-84c2-4eb5-a282-4981a0d6f057)
-          </details>
+      ```
+      @PostMapping
+      public ResponseEntity<?> autenticar(@RequestBody UserLoginDTO userLoginDTO, HttpServletRequest request){
+          try{
+              System.out.println(userLoginDTO.username()+userLoginDTO.password());
+              UsernamePasswordAuthenticationToken autgAuthenticationToken
+                      = new UsernamePasswordAuthenticationToken(userLoginDTO.username(), userLoginDTO.password());
+  
+              authenticationManager.authenticate(autgAuthenticationToken);
+  
+              JwtToken token = detailsService.getTokenAuthenticated(userLoginDTO.username());
+  
+              return ResponseEntity.ok(token);
+          }catch(AuthenticationException ex){
+              log.error("Credências invalidas");
+          }
+          return ResponseEntity
+              .badRequest()
+              .body(new ErrorMessage(request, HttpStatus.BAD_REQUEST, "Credenciais Inválidas"));
+      }
+      ```
+    </details>
 
 
 ### Hard Skills
