@@ -31,13 +31,26 @@ Para resolver esse problema, a equipe desenvolveu uma interface amigável e intu
     - Rastreabilidade de usuário
           <details>
               Identificar o usuário logado no sistema e registrar todas as ações executadas. A principio, enfrentei dificuldades para capturar o usuário através do Spring Security, o que exigiu esforços para o desenvolvimento do histórico. Depois de testes e refatorações, cheguei a uma solução vigente de registrar a ação toda vez que fosse chamado um endpoint, exigindo obrigatoriamente que o usuário esteja logado para realizar qualquer tipo de requisição HTTP (exceto requisições de login).
-          ![image](https://github.com/user-attachments/assets/487c705d-a150-4a03-a39f-003f74672166)
-          </details>
+      ```
+        @Transactional
+            public Coluna criarColuna(Coluna coluna){
+                Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+                Usuario usuario = (Usuario) authentication.getPrincipal();
+                historicoService.criar(new Historico(coluna.getMetadata(), String.format("Coluna %s criada.", coluna.getNome()),usuario));
+                return colunaRepository.save(coluna);
+            }
+      ```
+      </details>
     - Processamento e leitura de arquivos CSV
           <details>
               Desenvolvi um algoritmo capaz de capturar um arquivo CSV através de uma requisição HTTP(POST) convertido em código binário, logo transformar novamente em arquivo e ler através de um Buffered, em seguida, fiz o processamento do CSV utilizando bibliotecas importadas do Java e realizei o input dos dados para o banco de dados relacional. Importante ressaltar, foi utilizado o método duas vezes em dentro do sistema, sendo a primeira para configuração de uma base de dados, e a segunda para upload de dados com a configuração do esquema pronto.
-      ![image](https://github.com/user-attachments/assets/239ff7f4-0254-4f62-b084-a4bf35ef017a)
-          </details>
+      ```
+        @PostMapping("/dePara/{idColuna}")
+            public ResponseEntity<List<DeParaResponseDto>> uploadFileDePara(@RequestParam("file") MultipartFile file, @PathVariable Long idColuna){
+                return ResponseEntity.ok().body(DeParaMapper.toListDto(uploadService.uploadFileDePara(file, idColuna)));
+            }
+      ```
+         </details>
     - Padronização de estilos no Front-end
           <details>
               Ao final do projeto, auxiliei os desenvolvedores fron-ends na padronização dos estilos das interfaces do sistema. Enfretei algumas dificuldades, já que não utilizamos nenhum framework de estilização, precisei replicar muito trecho de código em diversas telas, gerando um retrabalho do que já estava feito. Todavia, com refatorações e ajustes, consegui centralizar em arquivos CSS padrões para consumir em mais de uma tela, diminuindo o excesso de código duplicado no sistema.
