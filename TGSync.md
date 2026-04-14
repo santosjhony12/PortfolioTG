@@ -47,13 +47,13 @@ Para resolver essa problemática, desenvolvemos uma aplicação desktop robusta 
     - Validação e Cadastro de Dados
           <details>
               Implementei a lógica de leitura e validação dos arquivos CSV, assegurando que os dados fossem corretamente importados para o banco de dados, mantendo sua integridade e consistência durante o processo.
-          ![image](https://github.com/user-attachments/assets/78b2e33c-c2aa-4af4-94ae-e3f58b0d2fbd)
+          <img width="1126" height="789" alt="image" src="https://github.com/user-attachments/assets/a895e791-2f8f-45e6-bbc2-7d6b1527a4e6" />
           </details>
 
     - Funcionalidade de Feedbacks
           <details>
               Desenvolvi o módulo de inserção de notas e comentários dos orientadores, permitindo que eles registrassem avaliações detalhadas sobre o desempenho dos alunos. Esse módulo não só facilitou a documentação do progresso acadêmico, mas também proporcionou um espaço para feedback construtivo, contribuindo para uma avaliação mais completa e personalizada de cada aluno.
-          ![image](https://github.com/user-attachments/assets/1e7effcc-42e4-46c7-be4d-50fb9ea94d10)
+          <img width="1120" height="781" alt="image" src="https://github.com/user-attachments/assets/73ecd8c8-6906-42a6-935a-08d390d59f2a" />
           </details>
 
     - Visualização de Orientadores
@@ -81,9 +81,9 @@ Para resolver essa problemática, desenvolvemos uma aplicação desktop robusta 
 - **Discord** – Foi nosso principal canal de comunicação diária para tirar dúvidas rápidas e tomar decisões técnicas em conjunto.
 
 ### Soft Skills  
-- **Comunicação** – Mantivemos alinhamento constante com o orientador e entre os membros do grupo, especialmente em momentos de mudança de escopo.
-- **Trabalho em equipe** – Dividimos responsabilidades de forma equilibrada, com revisões de código entre colegas para garantir a qualidade e aprendizado coletivo.
-- **Organização** – Mantivemos o Trello e GitHub atualizados, o que facilitou acompanhar o progresso e evitar retrabalho.
-- **Adaptabilidade** – Precisamos adaptar o sistema para permitir reimportação de novos CSVs sem apagar os dados existentes, o que implicou mudanças na lógica de importação.
-- **Resolução de problemas** – Um bug crítico causava duplicação de alunos ao importar certos arquivos. Investigamos o problema e adicionamos validações por CPF para garantir unicidade.
+- **Comunicação** – Mantive alinhamento constante com o orientador e com os demais colegas, especialmente nos momentos em que houve mudanças de escopo.
+- **Trabalho em equipe** – Dividi responsabilidades de forma equilibrada com o grupo, participando das revisões de código para garantir qualidade e aprendizado coletivo.
+- **Organização** – Mantive o Trello e o GitHub sempre atualizados, facilitando o acompanhamento do progresso e evitando retrabalho.
+- **Adaptabilidade** – Ajustei o sistema para permitir a reimportação de novos CSVs sem apagar os dados existentes, o que exigiu alterações na lógica de importação.
+- **Resolução de problemas** – Identifiquei e investiguei um bug crítico que duplicava alunos durante a importação de determinados arquivos. Para solucionar, implementei validações por CPF garantindo a unicidade dos registros.
 
