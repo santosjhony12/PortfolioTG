@@ -28,6 +28,8 @@ Adoto metodologias ágeis, especialmente Scrum, para gerenciamento de projetos, 
 
 <img width="1584" height="396" alt="Banner para linkedin profissional moderno azul escuro (1)" src="https://github.com/user-attachments/assets/c446d2ac-8f64-48cd-9aad-068163d832bd" />
 
+.
+
 
 
 
